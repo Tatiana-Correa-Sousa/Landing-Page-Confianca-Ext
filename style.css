@@ -1,0 +1,201 @@
+*, 
+*:after,
+*:before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.container {
+    max-width: 1040px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+header {
+    background-color: #EB1C24;
+    padding-top: 40px;
+}
+
+.banner_first {
+    background-image: url("data:image/svg+xml,%3Csvg width='1920' height='1028' viewBox='0 0 1920 1028' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1920 800.347L0 1027.11V0H1920V800.347Z' fill='%23EB1C24'/%3E%3C/svg%3E");
+    background-position-y: bottom;
+    color: #fff;
+}
+
+.banner_flex,
+.missao_flex,
+.historia_flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner_flex > div > h1 {
+    font-weight: 700;
+    font-size: 75px;
+    line-height: 97px;
+}
+
+.banner_flex > div > p,
+.missao_flex > div > p {
+    font-size: 25px;
+    line-height: 32px;
+}
+
+button {
+    background: #313131;
+    border-radius: 3px;
+    padding: 10px 22px;
+    margin-top: 25px;
+}
+
+button > a {
+    color: #fff;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+h2 {
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 65px;
+}
+
+.nossos_produtos {
+    padding: 110px 0 55px;
+    text-align: center;
+}
+
+.nossos_produtos > div > h2,
+.nossos_clientes > div > h2 {
+    text-align: center;
+    color: #EB1C24;
+}
+
+.tipo_produto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 15px;
+}
+
+.nossos_produtos ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    margin-bottom: 75px;
+}
+
+ul > li > h3 {
+    font-size: 25px;
+    line-height: 32px;
+    color: #313131;
+    font-weight: 400;
+    text-align: center;
+}
+
+.nossa_missao {
+    color: #fff;
+    background-image: url("data:image/svg+xml,%3Csvg width='1920' height='1190' viewBox='0 0 1920 1190' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 980.408V0L1920 208.243V1189.48L0 980.408Z' fill='%23EB1C24'/%3E%3C/svg%3E");
+    padding: 200px 0 90px;
+    background-position: top;
+}
+
+.missao_flex {
+    flex-direction: row-reverse;
+    gap: 100px;
+}
+
+.nossos_clientes {
+    padding: 70px 0 80px;
+}
+
+.confianca_apextintores {
+    background: url(./img/confiancaEAp.png) no-repeat, #313131;
+    color: #fff;
+    display: flex;
+    padding: 90px 0;
+    background-position: -45%;
+}
+
+.flex_apextintores {
+    width: 55%;
+    margin: 0 0 0 auto;
+}
+
+.flex_apextintores > p {
+    font-size: 30px;
+    line-height: 39px;
+    text-align: center;
+    margin-top: 65px;
+}
+
+.flex_apextintores > div > p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 72px;
+}
+
+.apMaisConfianca {
+    display: flex;
+    gap: 55px;
+    justify-content: center;
+}
+
+.nossa_historia {
+    padding: 100px 0;
+}
+
+.historia_flex {
+    gap: 50px;
+}
+
+.nossa_historia > div > div > p{
+    font-size: 23px;
+}
+
+#red_button {
+    background-color: #EB1C24;
+    padding: 10px 40px;
+}
+
+footer {
+    background-color: #EB1C24;
+    color: #fff;
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0;
+}
+
+footer > a{
+    color: #fff;
+    text-decoration: none;
+    margin-top: 15px;
+}
+
+footer > img {
+    margin-bottom: 20px;
+}
+
+footer > ul {
+    display: flex;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+footer > ul > li {
+    list-style-type: none;
+    font-size: 25px;
+}
