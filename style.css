@@ -199,3 +199,16 @@ footer > ul > li {
     list-style-type: none;
     font-size: 25px;
 }
+
+.glider-track {
+    align-items: center;
+}
+
+.c-carousel__slide {
+    margin: 0 25px;
+    width: 150px;
+}
+
+.js-carousel--responsive-dots {
+    margin-top: 35px;
+}
