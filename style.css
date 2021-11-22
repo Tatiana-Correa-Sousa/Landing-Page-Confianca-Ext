@@ -212,3 +212,8 @@ footer > ul > li {
 .js-carousel--responsive-dots {
     margin-top: 35px;
 }
+
+footer p {
+    font-size: 15px;
+    margin-top: 40px;
+}
